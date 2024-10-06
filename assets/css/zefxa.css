@@ -825,9 +825,16 @@ ul {
 .main-menu__logo {
     position: relative;
     display: block;
-    padding: 20.5px 0;
+    padding: 2px;
     z-index: 1;
 }
+
+.main-menu__logo a img {
+    height: 60px;
+    width: 150px;
+
+}
+
 
 .main-menu__logo a {
     position: relative;
@@ -918,6 +925,7 @@ ul {
 }
 
 @media (min-width: 1200px) {
+
     .main-menu .main-menu__list,
     .main-menu .main-menu__list>li>ul,
     .main-menu .main-menu__list>li>ul>li>ul,
@@ -4386,7 +4394,7 @@ ul {
     font-weight: 600;
     color: var(--zefxa-base);
     counter-increment: count;
-    content: "0"counter(count);
+    content: "0" counter(count);
     transition: all 200ms linear;
     transition-delay: 0.1s;
     font-family: var(--zefxa-font-two);
@@ -7336,7 +7344,7 @@ ul {
     font-weight: 600;
     color: rgba(var(--zefxa-black-rgb), .12);
     counter-increment: count;
-    content: "0"counter(count);
+    content: "0" counter(count);
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -7868,7 +7876,7 @@ ul {
     font-weight: 600;
     color: var(--zefxa-base);
     counter-increment: count;
-    content: ""counter(count);
+    content: "" counter(count);
     transition: all 200ms linear;
     transition-delay: 0.1s;
     font-family: var(--zefxa-font-two);
@@ -9193,7 +9201,7 @@ ul {
     border-radius: 50%;
     color: var(--zefxa-base);
     counter-increment: count;
-    content: "0"counter(count);
+    content: "0" counter(count);
     transition: all 200ms linear;
     transition-delay: 0.1s;
     -webkit-transition: all 500ms ease;
